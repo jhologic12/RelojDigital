@@ -19,7 +19,8 @@ const mostrarReloj = ()=>{
     let fechaTexto = `${dia},${diaSemana}  ${mes}`;
 
     document.getElementById('fecha').innerHTML=fechaTexto;
-
+    
+    document.getElementById('contenedor').classList.toggle('animar');
 
 
 }
